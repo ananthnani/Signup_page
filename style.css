@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background-color: navy;
+  border-radius: 20px;
+  width: 340px;
+  padding: 30px 20px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+.label {
+  margin: 15px 0;
+  font-weight: bold;
+  font-size: 14px;
+  color: whitesmoke;
+}
+
+.roles {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.role {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
+  cursor: pointer;
+}
+
+.role img {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+}
+
+.role span {
+  margin-top: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.input-group {
+  position: relative;
+  width: 100%;
+  margin: 10px 0;
+}
+
+.input-icon {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+  font-size: 18px;
+  color: #a0a8c0;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px 12px 12px 40px;
+  border-radius: 25px;
+  border: none;
+  background-color: #2f3964;
+  color: white;
+  font-size: 14px;
+}
+
+.input-group input::placeholder {
+  color: azure;
+}
+
+form button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 25px;
+  background-image: linear-gradient(to right, #ff416c, #ff6a00);
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.login-text {
+  margin-top: 15px;
+  font-size: 13px;
+  color: azure;
+}
+
+.login-text a {
+  color: orange;
+  font-weight: bold;
+}
